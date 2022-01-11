@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="44.0" prefWidth="1129.0" style="-fx-background-color: #2951a0#2951a0; -fx-font-weight: bold;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <AnchorPane prefHeight="8.0" prefWidth="1129.0" />
+      <SplitPane dividerPositions="0.3006" layoutY="87.0" prefHeight="682.0" prefWidth="1129.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="690.0" prefWidth="332.0">
+               <children>
+                  <VBox layoutX="3.0" layoutY="1.0" prefHeight="680.0" prefWidth="332.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="1.0">
+                     <children>
+                        <JFXTextField id="textField" fx:id="searchBox" prefHeight="44.0" prefWidth="317.0" style="-fx-background-color: white;" />
+                        <JFXTreeTableView fx:id="mainList" onMouseClicked="#release" prefHeight="653.0" prefWidth="274.0" VBox.vgrow="ALWAYS">
+                           <columns>
+                              <TreeTableColumn fx:id="groupsColumn" prefWidth="333.0" text="Groups" />
+                           </columns>
+                           <contextMenu>
+                              <ContextMenu>
+                                <items>
+                                  <MenuItem id="rdes" mnemonicParsing="false" onAction="#viewer" text="Remote desktop" />
+                                    <MenuItem id="rdos" mnemonicParsing="false" onAction="#CommandLine" text="Remote DOS" />
+                                    <MenuItem id="rffil" mnemonicParsing="false" onAction="#FileBrowser" text="File Explorer" />
+                                    <Menu id="set" mnemonicParsing="false" text="Client Settings">
+                                      <items>
+                                        <MenuItem mnemonicParsing="false" text="Restart Client" />
+                                          <MenuItem mnemonicParsing="false" text="Close Client" />
+                                      </items>
+                                    </Menu>
+                                </items>
+                              </ContextMenu>
+                           </contextMenu>
+                        </JFXTreeTableView>
+                        <Label fx:id="status_label" prefHeight="21.0" prefWidth="209.0" text="Status: stopped" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TabPane fx:id="tabPane" prefHeight="680.0" prefWidth="787.0" tabClosingPolicy="ALL_TABS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <MenuBar layoutY="47.0" prefHeight="37.0" prefWidth="1129.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem fx:id="startButton" mnemonicParsing="false" onAction="#startButton_action" text="Start" />
+                  <MenuItem fx:id="portButton" mnemonicParsing="false" onAction="#portButton_action" text="Set port" />
+                  <CheckMenuItem fx:id="startup_menu" mnemonicParsing="false" text="Run on widows start" />
+                  <MenuItem fx:id="exitButton" mnemonicParsing="false" onAction="#exitButton_action" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="aboutButton" mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\ConsoleApp1.exe.config
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\ConsoleApp1.exe
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\ConsoleApp1.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\MirrorDriver.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\MirrorDriver.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\x86\Release\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\x86\Release\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\x86\Release\ConsoleApp1.exe
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\x86\Release\ConsoleApp1.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\DesktopDuplication.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\SharpDX.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\SharpDX.DXGI.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\SharpDX.Direct3D11.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\DesktopDuplication.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\SharpDX.xml
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\SharpDX.DXGI.xml
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\x86\Release\SharpDX.Direct3D11.xml

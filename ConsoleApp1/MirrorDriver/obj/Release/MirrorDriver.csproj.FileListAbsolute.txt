@@ -1,0 +1,10 @@
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\bin\Release\MirrorDriver.dll
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\bin\Release\MirrorDriver.pdb
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\obj\Release\MirrorDriver.csproj.CoreCompileInputs.cache
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\obj\Release\MirrorDriver.dll
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\obj\Release\MirrorDriver.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\MirrorDriver\bin\Release\MirrorDriver.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\MirrorDriver\bin\Release\MirrorDriver.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\MirrorDriver\obj\Release\MirrorDriver.csproj.CoreCompileInputs.cache
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\MirrorDriver\obj\Release\MirrorDriver.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\MirrorDriver\obj\Release\MirrorDriver.pdb

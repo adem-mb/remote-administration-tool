@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="798.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WindowCtrl.Recorder">
+   <children>
+      <ImageView fx:id="imgViwer" fitHeight="798.0" fitWidth="1188.0" layoutX="-3.0" onMouseReleased="#mouseUp" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="-5.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

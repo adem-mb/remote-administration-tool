@@ -1,0 +1,10 @@
+C:\Users\Jason\Dropbox\RemoteDesktop\MirrorDriver\bin\Debug\MirrorDriver.dll
+C:\Users\Jason\Dropbox\RemoteDesktop\MirrorDriver\bin\Debug\MirrorDriver.pdb
+C:\Users\Jason\Dropbox\RemoteDesktop\MirrorDriver\obj\Debug\MirrorDriver.dll
+C:\Users\Jason\Dropbox\RemoteDesktop\MirrorDriver\obj\Debug\MirrorDriver.pdb
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\bin\Debug\MirrorDriver.dll
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\bin\Debug\MirrorDriver.pdb
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\obj\Debug\MirrorDriver.csprojResolveAssemblyReference.cache
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\obj\Debug\MirrorDriver.csproj.CoreCompileInputs.cache
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\obj\Debug\MirrorDriver.dll
+C:\Users\Adem\Desktop\RemoteDesktop-master\MirrorDriver\obj\Debug\MirrorDriver.pdb

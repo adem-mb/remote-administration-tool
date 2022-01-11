@@ -1,0 +1,12 @@
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\DesktopDuplication.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\DesktopDuplication.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\SharpDX.Direct3D11.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\SharpDX.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\SharpDX.DXGI.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\SharpDX.xml
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\SharpDX.Direct3D11.xml
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\bin\Release\SharpDX.DXGI.xml
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\obj\Release\DesktopDuplication.csproj.CoreCompileInputs.cache
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\obj\Release\DesktopDuplication.dll
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\obj\Release\DesktopDuplication.pdb
+C:\Users\Adem\Documents\Visual Studio 2017\Projects\ConsoleApp1\DesktopDuplication\obj\Release\DesktopDuplication.csprojResolveAssemblyReference.cache

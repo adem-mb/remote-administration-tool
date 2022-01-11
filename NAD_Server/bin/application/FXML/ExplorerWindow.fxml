@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.5" layoutX="2.0" prefHeight="591.0" prefWidth="797.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="745.0" prefWidth="523.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label fx:id="user_label" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="6000.0" style="-fx-background-color: #2951a0;" text="IP" textAlignment="CENTER" textFill="#fcf9f9" wrapText="true" VBox.vgrow="NEVER">
+                           <font>
+                              <Font name="Verdana Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" prefHeight="39.0" prefWidth="480.0">
+                           <children>
+                              <JFXTextField prefHeight="31.0" prefWidth="279.0" promptText="Search" HBox.hgrow="ALWAYS" />
+                              <JFXComboBox fx:id="drives_rm" onAction="#select_rm" prefHeight="19.0" prefWidth="157.0">
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin></JFXComboBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="36.0" prefWidth="549.0">
+                           <children>
+                              <JFXTextField fx:id="path_rm" prefHeight="25.0" prefWidth="438.0" style="-fx-background-color: white;" HBox.hgrow="ALWAYS" />
+                              <JFXButton alignment="CENTER" minHeight="-Infinity" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #2951a0;" text="GO" textAlignment="CENTER" textFill="WHITE" HBox.hgrow="NEVER">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="5.0" right="5.0" />
+                                 </HBox.margin>
+                              </JFXButton>
+                           </children>
+                        </HBox>
+                        <JFXTreeTableView fx:id="remoteList" prefHeight="611.0" prefWidth="480.0" VBox.vgrow="ALWAYS">
+                           <columns>
+                              <TreeTableColumn fx:id="fileName_rm" editable="false" prefWidth="160.0" text="file name" />
+                              <TreeTableColumn fx:id="date_rm" editable="false" prefWidth="176.0" text="date created" />
+                              <TreeTableColumn fx:id="size_rm" editable="false" prefWidth="186.0" text="size" />
+                           </columns>
+                           <contextMenu>
+                              <ContextMenu>
+                                <items>
+                                  <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu>
+                        </JFXTreeTableView>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="525.0" prefWidth="538.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="718.0" prefWidth="480.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="6000.0" style="-fx-background-color: #2951a0;" text="Local computer" textAlignment="CENTER" textFill="#fcf9f9" wrapText="true" VBox.vgrow="NEVER">
+                           <font>
+                              <Font name="Verdana Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" prefHeight="39.0" prefWidth="480.0">
+                           <children>
+                              <JFXTextField prefHeight="31.0" prefWidth="279.0" promptText="Search" HBox.hgrow="ALWAYS" />
+                              <JFXComboBox fx:id="drives_lo" onAction="#select_local" prefHeight="31.0" prefWidth="157.0">
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin></JFXComboBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="36.0" prefWidth="549.0">
+                           <children>
+                              <JFXTextField fx:id="path_lo" prefHeight="25.0" prefWidth="438.0" style="-fx-background-color: white;" HBox.hgrow="ALWAYS" />
+                              <JFXButton alignment="CENTER" minHeight="-Infinity" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #2951a0;" text="GO" textAlignment="CENTER" textFill="WHITE" HBox.hgrow="NEVER">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="5.0" right="5.0" />
+                                 </HBox.margin>
+                              </JFXButton>
+                           </children>
+                        </HBox>
+                        <JFXTreeTableView fx:id="localList" prefHeight="600.0" prefWidth="549.0" VBox.vgrow="ALWAYS">
+                           <columns>
+                              <TreeTableColumn fx:id="fileName_lo" prefWidth="160.0" text="file name" />
+                              <TreeTableColumn fx:id="date_lo" editable="false" prefWidth="176.0" text="date created" />
+                              <TreeTableColumn fx:id="size_lo" editable="false" prefWidth="186.0" text="size" />
+                           </columns>
+                           <contextMenu>
+                              <ContextMenu>
+                                <items>
+                                  <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu>
+                        </JFXTreeTableView>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

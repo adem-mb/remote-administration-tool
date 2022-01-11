@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="49.0" prefWidth="600.0" style="-fx-background-color: #2951a0#2951a0; -fx-font-weight: bold;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <JFXTreeTableView fx:id="serverList" layoutY="44.0" prefHeight="382.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="44.0">
+         <columns>
+            <TreeTableColumn fx:id="servers_column" prefWidth="370.0" text="Servers" />
+            <TreeTableColumn fx:id="status_column" prefWidth="229.0" text="Status" />
+         </columns>
+      </JFXTreeTableView>
+   </children>
+</AnchorPane>
